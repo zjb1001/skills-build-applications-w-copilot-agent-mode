@@ -127,6 +127,9 @@ CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOW_METHODS = ["GET", "POST", "PUT", "DELETE", "OPTIONS"]
 CORS_ALLOW_HEADERS = ["*",]
 
+# Codespace Django REST API endpoint suffix
+CODESPACE_API_SUFFIX = "-8000.app.github.dev"
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
